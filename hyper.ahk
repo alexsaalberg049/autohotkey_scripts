@@ -53,6 +53,10 @@ if GetKeyState("Space", "P") {
 	return
 }
 
+CapsLock & [::
+Send Backspace
+return
+
 ; Backspace => CtrlBackspace
 CapsLock & Backspace::
 Send {Ctrl Down}{Backspace}{Ctrl Up}
