@@ -54,7 +54,7 @@ if GetKeyState("Space", "P") {
 }
 
 CapsLock & [::
-Send Backspace
+Send {Backspace}
 return
 
 ; Backspace => CtrlBackspace
